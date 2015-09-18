@@ -111,9 +111,13 @@ small {
 sub,
 sup {
   position: relative;
-  font-size: 75%;
-  line-height: 0;
-  vertical-align: baseline;
+  font-size: 85%;
+  line-height:4;
+  vertical-align: top;
+  left:41px;
+  color:#fff;
+  font-size:15px;
+
 }
 
 sup {
@@ -373,10 +377,10 @@ hr {
 
 p {
     font-size: 16px;
-    line-height:30px;
     margin: 0;
     padding: 0px;
-    text-align: justify;
+	padding-left:0px;
+	padding-top:0px;
 }
 
 .lead {
@@ -473,7 +477,7 @@ h6 small,
 h1,
 h2,
 h3 {
-  margin-top:10px;
+  margin-top:5px;
   margin-bottom: 3px;
 }
 
@@ -503,7 +507,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h4,
@@ -1385,8 +1389,10 @@ th {
 }
 
 .table {
-  width: 100%;
-  margin-bottom: 20px;
+  width: 95%;
+  margin-bottom:105px;
+
+  
 }
 
 .table thead > tr > th,
@@ -1395,7 +1401,7 @@ th {
 .table thead > tr > td,
 .table tbody > tr > td,
 .table tfoot > tr > td {
-  padding: 8px;
+  padding:1%;
   line-height: 1.428571429;
   vertical-align: top;
   border-top: 1px solid #dddddd;

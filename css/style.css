@@ -28,8 +28,8 @@ z-index:9999;
 {
 
 margin:0px auto 0px auto;
-padding:5px 0px 0px 0px;
-width:10%;
+padding:5px 0px 0px 10px;
+width:25%;
 text-align:center;
 float:left;
 height:40px;
@@ -39,9 +39,33 @@ height:40px;
 
 margin:3px auto 0px auto;
 padding:4px 0px 0px 0px;
-width:75%;
+width:60%;
 text-align:center;
 float:left;
+color:#fff;
+font-size:20px;
+font-family: 'Roboto', sans-serif;
+height:45px;
+}
+.pageh_logout
+{
+     margin: 3px -13px 0px auto;
+    padding: 1px 0px 0px 0px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 45px;
+}
+.pageh_noty
+{
+
+margin:1px auto 0px auto;
+padding:1px 0px 0px 0px;
+width:12%;
+text-align:center;
+float:right;
 color:#fff;
 font-size:20px;
 font-family: 'Roboto', sans-serif;
@@ -103,13 +127,15 @@ height:45px;
 .about_profile
 {
 	color: #333;
-	font-size:17px;
+	font-size:16px;
 	width:99%;
 	font-family: 'Roboto', sans-serif;
-	line-height:30px;
+	line-height:25px;
 	text-align:justify;
 	margin:0px auto 0px auto;
-	padding:0px 10px 10px 10px;
+	padding:0px 7px 0px 7px;
+	height:110px;
+	overflow:hidden;
 
   	
 	
@@ -487,7 +513,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 .settings_taxisecu{
 	width:100%;
 	height:auto;
-	padding:0px 0px 225px 0px;
+	padding:0px 0px 125px 0px;
     margin: 6px auto 0 auto;
 	width:100%;
 	 overflow:hidden;
@@ -514,7 +540,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 .settings_taxisecu_lt{
 	width:17%;
 	height:45px;
-	padding:10px 0px 10px 15px;
+	padding:7px 0px 10px 15px;
 	 margin: 0 auto 0 auto;
 	float:left;
     line-height:22px;
@@ -526,6 +552,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
 	width:83%;
 	height:45px;
 	padding:10px 0px 10px 5px;
+    margin: 0 auto 0 auto;
+	float:left;
+	line-height:22px;
+	border-bottom:2px solid #f88000;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:#fff;
+}
+
+.dashboard_taxisecu_lt{
+	width:17%;
+	height:60px;
+    padding:10px 0px 10px 15px;
+	 margin: 0 auto 0 auto;
+	float:left;
+    line-height:22px;
+	border-bottom:2px solid #f88000;
+	color:#333;
+	
+}
+.dashboard_taxisecu_rt{
+	width:83%;
+	height:60px;
+	padding:11px 0px 10px 5px;
     margin: 0 auto 0 auto;
 	float:left;
 	line-height:22px;
@@ -588,11 +638,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', end
     font-size:16px;
 }
 
-.iafs_Hotel:hover {
-  -moz-box-shadow: -5px -5px 5px #888;
--webkit-box-shadow: -5px -5px 5px #888;
-box-shadow: -5px -5px 5px #888;
-}
+
 #Example_B {
 -moz-box-shadow: -5px -5px 5px #888;
 -webkit-box-shadow: -5px -5px 5px #888;
@@ -602,17 +648,20 @@ font-style:italic;
 }
 
 .countryBlock {
-     width:90%;
-	height:50px;
+     width:100%;
+	height:60px;
 	padding:5px;
 	margin: 10px auto;
-    border:solid 1px black;
-    text-align:center;
+  border: 1px solid #f88000;
+    text-align:left;
+	padding-top:14px;
+	background-color:#eee;
 }
 .countryBlock .lead-font-country {
     padding:5px; 
     text-align:center;
-    font-style:italic;
+	font-size:15px;
+  	font-family: 'Roboto', sans-serif;
 }
 .h1countryBlock {
     -moz-box-shadow: 0 0 5px #888;
@@ -620,31 +669,26 @@ font-style:italic;
     box-shadow: 0 0 5px #888;
     border:solid 0px black;
     height:50px;
-    font-size:24px;
+    font-size:20px;
     text-align:center;
+	font-family: 'Roboto', sans-serif;
+	background-color:#f08300;
+	color:#fff;
+	padding-top:10px;
     
 }
-.h1countryBlock:hover {
-    border:1px solid #000;
-}
-.countryBlock:hover {
-    -moz-box-shadow: 0 0 5px #888;
--webkit-box-shadow: 0 0 5px#888;
-box-shadow: 0 0 5px #888;
-border:solid 0px black;
-}
+
+
 /**Hitesh 140915 Start*/
 .ui-body-c .ui-link {
   color: #000;
   font-weight: normal;
   text-decoration: none;
-  font-size: 14px !important;
+  font-size: 16px !important;
  font-family: 'Roboto', sans-serif;
  
 
 }
-
-
 
 .riding_history_main {
 width:100%;
@@ -657,6 +701,50 @@ width:100%;
 	position:absolute;
 	
 	}
+	.riding_history_login{
+width:100%;
+	background-color:#FFF;
+    margin:0px auto 12px auto;
+	height:auto;
+   z-index:99;
+    top:0px; bottom:75px; left:0;
+  
+	
+	}
+
+.riding_history_maining {
+	width: 100%;
+	background-color: #FFF;
+	margin: 34px auto 12px auto;
+	height: auto;
+	z-index: 99;
+	top: 0px;
+	bottom: 75px;
+	left: 2px;
+	overflow: auto;
+	position: absolute;
+	 font-family: 'Roboto', sans-serif;
+	
+	}
+	.riding_history_maining p {
+
+	 font-family: 'Roboto', sans-serif;
+	 font-size:16px;
+	 padding:14px;
+	
+	}
+.riding_history_hotel {
+    width: 100%;
+    background-color: #FFF;
+    margin: 39px auto 12px auto;
+    height: auto;
+    z-index: 99;
+    top: 0px;
+    bottom: 40px;
+    left: 2px;
+    overflow: auto;
+    position: absolute;
+}
 	
 	.riding_history_Coverage{
 width:100%;
@@ -1808,17 +1896,128 @@ height:50px !important;
 	
 	
 	
+	.about_travel
+{
+	color: #333;
+	font-size:16px;
+	width:99%;
+	font-family: 'Roboto', sans-serif;
+	line-height:25px;
+	text-align:justify;
+	margin:40px auto 0px auto;
+	padding:0px 7px 88px 7px;
+	height:auto;
+	overflow:hidden;
+
+  	
 	
 	
+}
+.about_travel p
+{
+	margin-top:0px;
+
+	font-size:15px;
+	width:99%;
+	font-family: 'Roboto', sans-serif;
+	line-height:30px;
+	text-align:justify;
+	color:#333;
+	padding:10px 7px 10px 7px;
 	
 	
+
+	
+}
+.about_travel h1{
+	margin-top:0px;
+
+	font-size:20px;
+	width:99%;
+	font-family: 'Roboto', sans-serif;
+	line-height:25px;
+	text-align:justify;
+	color:#333;
+	padding:10px 7px 0px 7px;
 	
 	
+
+	
+}
+	
+.about_travel h3{
+	margin-top:0px;
+	font-size:18px;
+	width:99%;
+	font-family: 'Roboto', sans-serif;
+	line-height:25px;
+	text-align:justify;
+	color:#333;
+	padding:10px 7px 0px 7px;
+	font-weight:bold;
 	
 	
+
+	
+}
 	
 	
+.hotel_list{
+	width:100%;
+	height:165px;
+	border-radius:5px;
+
+	background-color:#FFF2FF;
+	box-shadow:0px 0px 1px 0px #333;
+}
 	
+.hotel_list_left{
+	width:50%;
+	height:165px;
+	max-height:165px;
+	float:left;
+	background-color:#fff;
+	border-radius:5px;
+}
+	
+.hotel_list_right{
+	width:50%;
+	height:165px;
+	max-height:165px;
+	float:left;
+	background-color:#000;
+	
+}	
+	
+.hotel_list p
+{
+    margin-top: 0px;
+    font-size: 13px;
+    width: 99%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    color: #333;
+    padding: 0px 7px 0px 7px;
+}
+.hotel_list h1
+{
+	margin-top:0px;
+	font-size:15px;
+	font-family: 'Roboto', sans-serif !important;
+	line-height:25px;
+	color:#333;
+	padding:5px 7px 0px 7px;
+}
+.hotel_list h2
+{
+	margin-top:0px;
+	font-size:15px;
+	font-family: 'Roboto', sans-serif !important;
+	line-height:25px;
+	color:#333;
+	padding:0px 7px 0px 7px;
+	font-weight:bold;
+}	
 	
 	
 	
@@ -2251,7 +2450,7 @@ height:50px !important;
 .press-release, .press-release-bottom, .press-release-top {
     background: #EEE none repeat scroll 0 0;
     margin-bottom: 0px;
-    padding: 15px 20px;
+    padding: 15px 7px;
     transition: all 0.6s ease 0s;
 	  border-bottom: 3px solid #f88000;
 
@@ -2264,10 +2463,11 @@ height:50px !important;
 }
 
 .press-release p.lead-font {
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 0;
   text-align:justify;
  	font-family: 'Roboto', sans-serif;
+	
 }
 
 .press-release-bottom {
@@ -2281,7 +2481,7 @@ height:50px !important;
     padding: 15px 20px;
     transition: all 0.6s ease 0s;
 	  border-bottom: 3px solid #f88000;
-	  margin-top:15px;
+	  margin-top:40px;
 
 }
 
@@ -2293,10 +2493,9 @@ height:50px !important;
  
  
  .calender_home{
-	 width:90%;
-     margin:0px auto 83px auto;
+	 width:100%;
+     margin:0px auto 0px auto;
 	 padding:0px 0px 0px 0px;
-	 bottom:15px;
 	 right:0px;
 	 float:left;
 	 
@@ -2306,7 +2505,7 @@ height:50px !important;
 	 width:20%;
 	 height:auto;
 	 margin:0px auto 0px auto;
-	 padding:0px 0px 0px 0px;
+	 padding:0px 0px 0px 7px;
 	 float:left;
 	 
  }
@@ -2362,7 +2561,7 @@ height:50px !important;
 	 
 	 
  .venu_address p{
-     margin-top:0px;
+     margin-top:10px;
 	 padding:0px 10px 0px 0px;
 	color: #FFF;
 	font-size:15px;
@@ -2382,14 +2581,14 @@ height:50px !important;
     cursor: pointer;
     float: left;
     font-family: "Roboto",sans-serif;
-    font-size: 11px;
+    font-size:20px;
     font-weight: bold;
     height: 42px;
-    margin: 15px 10px 20px 19px;
-    padding: 7px 0 0;
+    margin: 15px 10px 10px 19px;
+    padding: 12px 0 0;
     text-align: center;
     text-shadow: none;
-    width:96%;
+    width:80%;
 	
 }
 
@@ -2490,7 +2689,7 @@ height:50px !important;
 	color: #333;
 	font-size:15px;
 	width:100%;
-	font-family:"Open Sans";
+	font-family: "Roboto",sans-serif;
 	line-height:22px;
 	text-align:justify;
 	 overflow:auto;
@@ -2507,15 +2706,17 @@ height:50px !important;
     margin: 5px;
     border: solid 2px black;
     width:100%;
+		 font-family: "Roboto",sans-serif;
 }
     
 
     table tr {
         padding: 5px;
         margin: 5px;
-        font-size: 12px;
+        font-size: 15px;
          border: solid 2px #000;
          height:20px;
+		 font-family: "Roboto",sans-serif;
     }
 
     table tr th {
@@ -2525,3 +2726,132 @@ height:50px !important;
         font-size: 14px;
         height:30px;
     }
+	
+	
+	.about-contact
+{
+
+
+	width:100%;
+	font-family:"Open Sans";
+	height:auto;
+	line-height:22px;
+	background: #EEE none repeat scroll 0 0;
+    margin-bottom: 0px;
+    padding: 15px 0px;
+    transition: all 0.6s ease 0s;
+	  border-bottom: 3px solid #f88000;
+	    border-top: 3px solid #f88000;
+		padding-bottom:85px;
+		margin-top:10px;
+
+	
+	
+}
+.about-contact h2
+{
+	margin-top:0px;
+
+	font-size:22px;
+	width:99%;
+	font-family: 'Roboto', sans-serif;
+	padding:10px 0px 0px 10px;
+	color:#333;
+	font-weight:bold;
+	
+	
+
+	
+}
+
+.about-contact p
+{
+	margin-top:0px;
+
+	font-size:14px;
+	width:99%;
+	font-family: 'Roboto', sans-serif;
+	line-height:25px;
+	text-align:justify;
+	padding:10px;
+	color:#333;
+}
+.space{
+	
+	clear:both;
+	
+}
+/*Hitesh 160915*/
+.AAlogout {
+    color: #fff;
+    font-weight:bold;
+}
+.AAlogout:hover {
+    cursor:default;
+}
+.circle {
+    position: relative;
+    /* line-height: 4; */
+    vertical-align: top;
+    /* left: 22px; */
+    color: red;
+    width: 24px;
+    height: 24px;
+    float: right;
+    right:40px;
+    /* position: absolute; */
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;  
+	/*background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);*/
+    background: url('../images/logo.png') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.notifyOrange{
+    background: #f88000;
+    color: #fff;
+    border-color: #f88000;
+    box-shadow: #E58432 0px 2px 4px;
+     border-color: rgba(44,46,47,1);
+     margin:10px; padding:5px;
+     border-radius: 15px;
+     opacity:0.1;
+
+}
+.notifyOrange:hover {
+    background-color: #f88000;
+}
+div#mainBody {
+	background-color: #CCC;
+	margin:80px auto;
+}
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:20px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
+
+/*Hitesh 160915*/
